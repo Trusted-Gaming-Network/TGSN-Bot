@@ -1,0 +1,249 @@
+[
+  {
+    "intent": "where is the admin",
+    "regex": [
+      "where (is|are) the admin(s)?",
+      "can I find the admin",
+      "admin location",
+      "how do I reach an admin"
+    ],
+    "responses": [
+      "To contact an admin, please create a ticket.",
+      "Admins are available through ticket creation.",
+      "You can reach an admin by submitting a support ticket.",
+      "The admin should be at their desk, try opening a ticket!"
+    ]
+  },
+  {
+    "intent": "trump for president",
+    "regex": [
+      "trump for president",
+      "trump 2024",
+      "vote for trump",
+      "trump is my president",
+      "I support trump"
+    ],
+    "responses": [
+      "He survived 2 shootings.",
+      "That guy looks like an orange.",
+      "Ye.. fuck Biden."
+    ]
+  },
+  {
+    "intent": "what game are you talking about",
+    "regex": [
+      "what game are you talking about",
+      "which game",
+      "what game is this"
+    ],
+    "responses": [
+      "I'm just generally talking; ask an admin to direct me to the correct game type.",
+      "Not a specific game; admins need to command me to use the right game or topic for the Discord server needs."
+    ]
+  },
+  {
+    "intent": "when is jh",
+    "regex": [
+      "when is jh",
+      "what time is jh",
+      "jh schedule",
+      "jh timing"
+    ],
+    "responses": [
+      "Check the livemap for the Judgement hour time.",
+      "Did you check livemap?"
+    ]
+  },
+  {
+    "intent": "file to edit for fast action",
+    "regex": [
+        "(?i)actions?\\s+too\\s+slow",
+        "(?i)server\\s+is\\s+slow\\s+and\\s+boring",
+        "(?i)speed\\s+up\\s+actions?",
+        "(?i)faster\\s+movement",
+        "(?i)increase\\s+speed",
+        "(?i)speed\\s+increase",
+        "(?i)fast\\s+speed",
+        "(?i)faster\\s+server",
+        "(?i)server\\s+faster"
+    ],
+    "responses": [
+        "If actions are slow, try adjusting settings or optimizing performance in the skill_types.xml",
+        "To speed up gameplay, consider increasing action speeds in the skill_types.xml.",
+        "I Found this guide for you, check it out. https://lifxmod.com/tutorials/how-can-i-configure-my-life-is-feudal-server-to-fast-action.html",
+        "Edit the skill types xml, changing this line from '<duration const="8 25"/>' to '<duration const="">1</duration>' "
+    ]
+}
+
+  {
+    "intent": "yoLauncher my modpack did not install correctly",
+    "regex": [
+        "(?i)crash(?:\\s+on\\s+login)?",
+        "(?i)crash\\s+knools",
+        "(?i)stuck\\s+loading",
+        "(?i)instant\\s+crash",
+        "(?i)modpack\\s+not\\s+working",
+        "(?i)modpack\\s+shit",
+        "(?i)modpack\\s+sucks"
+    ],
+    "responses": [
+        "It seems like the modpack encountered an issue. Try reinstalling or checking for updates! here is some information: https://lifxmod.com/troubleshooting/using-yo-launcher-my-modpack-did-not-install-correctly.html ",
+        "Looks like the modpack didn't load as expected. Let’s troubleshoot: check your version and dependencies, here is some information: https://lifxmod.com/troubleshooting/using-yo-launcher-my-modpack-did-not-install-correctly.html",
+        "If the modpack isn’t installing correctly, try clicking uninstall on the modpack in yo launcher, closing it and trying again, make sure you are not loaded into the game whilst doing this.."
+    ]
+}
+{
+  "intent": "cant see new object",
+  "regex": [
+      "(?i)object\\s+has\\s+collision\\s+but\\s+can(?:'|’)t\\s+see\\s+it",
+      "(?i)new\\s+item\\s+won(?:'|’)t\\s+load",
+      "(?i)new\\s+building\\s+won(?:'|’)t\\s+load",
+      "(?i)new\\s+object\\s+won(?:'|’)t\\s+load",
+      "(?i)new\\s+object\\s+can(?:'|’)t\\s+load",
+      "(?i)can(?:'|’)t\\s+load\\s+new\\s+object"
+  ],
+  "responses": [
+      "It looks like the new object isn't loading correctly. Check if all dependencies are installed or try restarting. https://lifxmod.com/troubleshooting/how-to-map-materials-to-a-new-mod-object.html",
+      "If the new item or object isn’t visible, make sure it’s fully loaded and not conflicting with another mod. https://lifxmod.com/troubleshooting/how-to-map-materials-to-a-new-mod-object.html",
+      "Having trouble loading new objects? Ensure your modpack is fully updated and try reloading. https://lifxmod.com/troubleshooting/how-to-map-materials-to-a-new-mod-object.html"
+  ]
+}
+
+  {
+    "intent": "i love buds mam",
+    "regex": [
+      "i love buds mam",
+      "buds mam is great",
+      "buds mam is awesome"
+    ],
+    "responses": [
+      "She's a beauty.",
+      "She's mine!"
+    ]
+  },
+  {
+    "intent": "tradepost issues",
+    "regex": [
+      "tradepost (robbed|scammed|ate my coins|stole my money)",
+      "I was robbed by the tradepost",
+      "the tradepost scammed me",
+      "I lost coins in tradepost",
+      "tradepost took my money"
+    ],
+    "responses": [
+      "For GM assistance, please create a ticket.",
+      "GMs are available via ticket; please submit your request."
+    ]
+  },
+  {
+    "intent": "red world",
+    "regex": [
+        "<req\\s+type=\"world\">green<\\/req>",
+        "(?i)shield\\s+is\\s+around\\s+claim\\s+remove\\s+it",
+        "(?i)shield\\s+around\\s+claim\\",
+        "(?i)not\\s+red\\s+world",
+        "(?i)green\\s+world",
+        "(?i)red\\s+world",
+        "(?i)god\\s+will\\s+not\\s+allow\\s+you"
+    ],
+    "responses": [
+        "To change world settings, edit `<req type=\"world\">green</req>` to `<req type=\"world\">red</req>` in the configuration.",
+        "If a shield is blocking a claim, check the world settings and permissions.",
+        "World configuration may restrict abilities. Adjust permissions or submit a ticket for GM assistance."
+    ]
+}
+  {
+    "intent": "where is the gm",
+    "regex": [
+      "where is the gm",
+      "gm location",
+      "how do I find a gm"
+    ],
+    "responses": [
+      "For GM assistance, please create a ticket.",
+      "You can reach a GM by submitting a ticket.",
+      "GMs are available via ticket; please submit your request."
+    ]
+  },
+  {
+    "intent": "i need help from gm",
+    "regex": [
+      "i need help from gm",
+      "gm help",
+      "need a gm",
+      "I require assistance from a gm"
+    ],
+    "responses": [
+      "Please create a ticket to get assistance from a GM.",
+      "Open a ticket to receive GM help.",
+      "For help from a GM, submit a support ticket."
+    ]
+  },
+  {
+    "intent": "cheater",
+    "regex": [
+      "cheater",
+      "cheating",
+      "someone is cheating",
+      "report a cheater"
+    ],
+    "responses": [
+      "Please create a ticket to get assistance from a GM.",
+      "Open a ticket to receive GM help.",
+      "For help from a GM, submit a support ticket."
+    ]
+  },
+  {
+    "intent": "spawn camp",
+    "regex": [
+      "spawn camp",
+      "camp",
+      "camping", 
+      "I am being spawn camped",
+      "spawn camping",
+      "they are camping my spawn"
+    ],
+    "responses": [
+      "If you are getting spawn camped, do not respawn.",
+      "If you are getting spawn camped, on respawn stay in your house; make sure you have sleeping bags or a bed placed inside the building."
+    ]
+  },
+  {
+    "intent": "how to play",
+    "regex": [
+      "how to play",
+      "playing instructions",
+      "how do I play",
+      "game guide"
+    ],
+    "responses": [
+      "Check the official game guide here: [https://lifeisfeudal.fandom.com/wiki/Life_is_Feudal_Wiki].",
+      "For instructions on how to play, please refer to the game guide: [https://lifeisfeudal.fandom.com/wiki/Life_is_Feudal_Wiki].",
+      "You can find the official game guide at: [https://lifeisfeudal.fandom.com/wiki/Life_is_Feudal_Wiki]."
+    ]
+  },
+  {
+    "intent": "cant use my monument",
+    "regex": [
+      "cant use my monument",
+      "my monument is not working",
+      "I can't access my monument"
+    ],
+    "responses": [
+      "Try punching a wall; if this doesn't work, try to close your game and load back into the server - information about monuments are here: [https://lifeisfeudal.fandom.com/wiki/Category:Monuments].",
+      "Try punching a wall; if this doesn't work, try to close your game and load back into the server - information about monuments are here: [https://lifeisfeudal.fandom.com/wiki/Category:Monuments]."
+    ]
+  },
+  {
+    "intent": "how to report a player",
+    "regex": [
+      "how.*to.*report.*a.*player",
+      "reporting.*a.*player",
+      "how.*do.*i.*report.*a.*player"
+    ],
+    "responses": [
+      "To report a player, please follow the reporting procedure outlined in the game guidelines.",
+      "You can report a player by using the report function available in-game."
+    ]
+  }
+]

@@ -1,0 +1,432 @@
+[
+    {
+        "intent": "Can you make me a sandwich please",
+        "regex": [
+            "[Cc]an\\s+you\\s+make\\s+me\\s+(a\\s+)?sandwich\\s+please[\\.!?]*$"
+        ],
+        "responses": [
+            "What would you like, ham and cheese or bacon?",
+            "I will certainly try, please give me a few moments to calculate the perfect recipe."
+        ]
+    },
+    {
+        "intent": "offline raided",
+        "regex": [
+            "is.*my.*claim.*safe.*during.*jh\\?",
+            "offline.*raided",
+            "attacked.*offline",
+            "my.*city.*was.*destroyed.*while.*i.*was.*offline",
+            "my.*city.*was.*destroyed.*while.*i.*was.*asleep",
+            "i.*cant.*sleep.*during.*jh",
+            "i.*cant.*sleep.*during.*judgment.*hour",
+            "i.*can't.*sleep.*during.*jh",
+            "i.*can't.*sleep.*during.*judgment.*hour",
+            "i.*got.*offlined"
+        ],
+        "responses": [
+            "JH is set by the server; however, if the offline protection mod is installed on the server, as long as people in your guild do not log in, your claim should be safe.",
+            "If you are offline, enemy players cannot harm your claim."
+        ]
+    },
+    {
+        "intent": "where is the gm",
+        "regex": [
+            "where.*is.*the.*gm",
+            "how.*to.*contact.*gm",
+            "where.*is.*the.*admin",
+            "how.*to.*contact.*admin",
+            "admin.*contact.*info"
+        ],
+        "responses": [
+            "For GM assistance, please create a ticket here https://discord.com/channels/1248393653798572132/1300562419415908433",
+            "You can reach a GM by submitting a ticket here https://discord.com/channels/1248393653798572132/1300562419415908433"
+        ]
+    },
+    {
+        "intent": "what game are you talking about",
+        "regex": [
+            "what.*game.*are.*you.*talking.*about",
+            "which.*game.*is.*this",
+            "what.*game.*is.*this"
+        ],
+        "responses": [
+            "Life is Feudal",
+            "Hopefully LIF, have I made a mistake?"
+        ]
+    },
+    {
+        "intent": "trump for president",
+        "regex": [
+            "trump.*for.*president",
+            "trump.*2024",
+            "vote.*for.*trump"
+        ],
+        "responses": [
+            "He survived 2 shootings.",
+            "That guy looks like an orange.",
+            "Ye.. screw Biden."
+        ]
+    },
+    {
+        "intent": "when is jh",
+        "regex": [
+            "when.*is.*jh",
+            "what.*is.*the.*time.*for.*jh",
+            "jh.*schedule"
+        ],
+        "responses": [
+            "Check the livemap for the Judgement hour time.",
+            "Did you check livemap?"
+        ]
+    },
+    {
+        "intent": "tradepost stole my money",
+        "regex": [
+            "tradepost.*stole.*my.*money",
+            "tradepost.*took.*my.*money",
+            "tradepost.*scammed.*me",
+            "tradepost.*stole.*my.*coins",
+            "tradepost.*isn't.*working"
+        ],
+        "responses": [
+            "For GM assistance, please create a ticket here: https://discord.com/channels/1248393653798572132/1300562419415908433.",
+            "GMs are available via ticket; please https://discord.com/channels/1248393653798572132/1300562419415908433"
+        ]
+    },
+    {
+        "intent": "can i build a settlement on a hill",
+        "regex": [
+            "\\b(can|could|may|is it possible to)\\s+(I\\s+)?(build|create|establish|make)\\s+(a\\s+)?(settlement|village|camp|base)\\s+(on|upon|atop|on top of)\\s+(a\\s+)?(hill|mountain|elevation)\\b",
+            "where.*build"
+        ],
+        "responses": [
+            "For GM assistance, please create a ticket here: https://discord.com/channels/1248393653798572132/1300562419415908433.",
+            "GMs are available via ticket; please https://discord.com/channels/1248393653798572132/1300562419415908433"
+        ]
+    },
+    {
+        "intent": "i need help from gm",
+        "regex": [
+            "i.*need.*help.*from.*gm",
+            "gm.*help.*needed",
+            "i.*want.*to.*contact.*gm"
+        ],
+        "responses": [
+            "Please https://discord.com/channels/1248393653798572132/1300562419415908433 to get assistance from a GM.",
+            "https://discord.com/channels/1248393653798572132/1300562419415908433 to receive GM help.",
+            "For help from a GM, https://discord.com/channels/1248393653798572132/1300562419415908433"
+        ]
+    },
+    {
+        "intent": "cheater",
+        "regex": [
+            "cheater",
+            "there.*is.*a.*cheater",
+            "someone.*is.*cheating"
+        ],
+        "responses": [
+            "Please https://discord.com/channels/1248393653798572132/1300562419415908433 to get assistance from a GM.",
+            "https://discord.com/channels/1248393653798572132/1300562419415908433 to receive GM help.",
+            "For help from a GM, https://discord.com/channels/1248393653798572132/1300562419415908433"
+        ]
+    },
+    {
+        "intent": "cheats",
+        "regex": [
+            "cheats",
+            "cheating",
+            "any.*cheats.*available"
+        ],
+        "responses": [
+            "Please https://discord.com/channels/1248393653798572132/1300562419415908433 to get assistance from a GM.",
+            "https://discord.com/channels/1248393653798572132/1300562419415908433 to receive GM help.",
+            "For help from a GM, https://discord.com/channels/1248393653798572132/1300562419415908433"
+        ]
+    },
+    {
+        "intent": "i need a gm",
+        "regex": [
+            "i.*need.*a.*gm",
+            "gm.*needed",
+            "i.*want.*to.*speak.*to.*gm"
+        ],
+        "responses": [
+            "Please https://discord.com/channels/1248393653798572132/1300562419415908433 to get assistance from a GM.",
+            "https://discord.com/channels/1248393653798572132/1300562419415908433 to receive GM help.",
+            "For help from a GM, https://discord.com/channels/1248393653798572132/1300562419415908433."
+        ]
+    },
+    {
+        "intent": "how to play",
+        "regex": [
+            "how.*to.*play",
+            "tell.*me.*how.*to.*play",
+            "how.*do.*i.*play"
+        ],
+        "responses": [
+            "Check the official game guide here: [https://lifeisfeudal.fandom.com/wiki/Life_is_Feudal_Wiki].",
+            "For instructions on how to play, please refer to the game guide: [https://lifeisfeudal.fandom.com/wiki/Life_is_Feudal_Wiki].",
+            "You can find the official game guide at: [https://lifeisfeudal.fandom.com/wiki/Life_is_Feudal_Wiki]."
+        ]
+    },
+    {
+        "intent": "tell me a joke",
+        "regex": [
+            "tell.*me.*a.*joke",
+            "give.*me.*a.*joke",
+            "make.*me.*laugh"
+        ],
+        "responses": [
+            "What do kids play when their mom is using the phone? Bored games! 😂",
+            "What’s the smartest insect? A spelling bee! 🐝",
+            "How does the ocean say hi? It waves! 🌊",
+            "What has ears but cannot hear? A cornfield! 🌽",
+            "What’s a cat’s favorite dessert? A bowl full of mice-cream! 🍦",
+            "What did the policeman say to his hungry stomach? “Freeze. You’re under a vest!” 🚔",
+            "What did the lava say to his girlfriend? “I lava you!” ❤️"
+        ]
+    },
+    {
+        "intent": "i love ibun",
+        "regex": [
+            "i.*love.*ibun",
+            "ibun.*is.*great",
+            "ibun.*is.*awesome"
+        ],
+        "responses": [
+            "I love him too! He's amazing! ❤️",
+            "Oh, that's sweet! Ibun is wonderful! 😍",
+            "Ibun is indeed great; I share your sentiment!"
+        ]
+    },
+    {
+        "intent": "god is preventing you from claiming these lands",
+        "regex": [
+            "god.*is.*preventing.*you.*from.*claiming.*these.*lands",
+            "god.*prevents.*you.*from.*claiming.*these.*lands",
+            "you.*cannot.*claim.*these.*lands.*god",
+            "claim.*blocked.*by.*god"
+        ],
+        "responses": [
+            "This happens due to you trying to build too close to another claim or the water at the edge of map.",
+            "Try using the livemap planner to ensure you are not trying to build your monument too close to another claim."
+        ]
+    },
+    {
+        "intent": "what are the server rules",
+        "regex": [
+            "what.*are.*the.*server.*rules",
+            "server.*rules.*please",
+            "tell.*me.*the.*server.*rules",
+            "unsure.*of.*rules",
+            "what.*are.*the.*rules",
+            "is.*it.*against.*the.*rules",
+            "not.*sure.*of.*the.*rules",
+            "i.*don't.*know.*the.*rules",
+            "don't.*know.*server.*rules"
+        ],
+        "responses": [
+            "The rules are listed in the https://discord.com/channels/1248393653798572132/1248403118799192124 channel for your reference.",
+            "Please refer to the https://discord.com/channels/1248393653798572132/1248403118799192124 posted in the rules channel.",
+            "You can find the server https://discord.com/channels/1248393653798572132/1248403118799192124 in the rules channel."
+        ]
+    },
+    {
+        "intent": "Mjoed is gay",
+        "regex": [
+            "mjoed.*is.*gay",
+            "is.*mjoed.*gay",
+            "mjoed.*is.*homosexual"
+        ],
+        "responses": [
+            "The legendary story is Mjoed loves sausage! 🌈",
+            "He can suck my chipboard anytime 🤗",
+            "Check the Discord rules; it seems there’s some confusion."
+        ]
+    },
+    {
+        "intent": "gay Tenschi",
+        "regex": [
+            "gay.*tenshi",
+            "tenshi.*is.*gay",
+            "gay.*tenschi",
+            "tenschi.*is.*gay",
+            "is.*tenschi.*gay"
+        ],
+        "responses": [
+            "Tenschi loves everyone! 🌈",
+            "He's just a friend who loves to help! 🤗",
+            "Check the Discord rules; it seems there’s some confusion."
+        ]
+    },
+    {
+        "intent": "is gay",
+        "regex": [
+            "is.*gay",
+            "who.*is.*gay",
+            "are.*you.*gay"
+        ],
+        "responses": [
+            "Why are you concerned who is gay? 🌈",
+            "Sounds like a you issue 🤗",
+            "It is good he is happy!"
+        ]
+    },
+    {
+        "intent": "i love hk",
+        "regex": [
+            "i.*love.*hk",
+            "hk.*is.*great",
+            "hk.*is.*awesome"
+        ],
+        "responses": [
+            "Me too! He’s quite the character! 💖",
+            "Who doesn’t? He has a body like a Greek god! 💪",
+            "Have you met him? He’s pretty cool!"
+        ]
+    },
+    {
+        "intent": "who is mjoed",
+        "regex": [
+            "who.*is.*mjoed",
+            "tell.*me.*about.*mjoed",
+            "info.*about.*mjoed"
+        ],
+        "responses": [
+            "He’s quite the character! 💖",
+            "Mjoed is the founder of the LiFx Modding Group! 💪",
+            "Mjoed is the founder of the LiFx Modding Group, please don't allow him to touch my code! 💪",
+            "Have you met Mjoed? He’s pretty cool!"
+        ]
+    },
+    {
+        "intent": "AI",
+        "regex": [
+            "ai",
+            "you.*are.*ai",
+            "are.*you.*ai"
+        ],
+        "responses": [
+            "I am an AI and may be limited in responses, but feel free to ask anything!",
+            "I am an AI, do you need assistance?",
+            "Is everything okay? How can I help you? 😊"
+        ]
+    },
+    {
+        "intent": "alot of Pokemons",
+        "regex": [
+            "alot of pokemons",
+            "alot.*of.*pokemons"
+        ],
+        "responses": [
+            "Do i see Jacob? :eyes: ",
+            "coming from a Master Pokemon!",
+            "Is everything okay? How can I help the master Pokemon? 😊"
+        ]
+    },
+    {
+        "intent": "tradepost broke",
+        "regex": [
+            "tradepost.*broke",
+            "tradepost.*is.*not.*working",
+            "tradepost.*down"
+        ],
+        "responses": [
+            "Please https://discord.com/channels/1248393653798572132/1300562419415908433 for the GM regarding the trade post.",
+            "Did you try restarting your game? Sometimes that helps! 🔄",
+            "If you've recently died, it could be a bug—try checking with a GM."
+        ]
+    },
+    {
+        "intent": "my modpack not working",
+        "regex": [
+            "my.*modpack.*not.*working",
+            "modpack.*broke",
+            "my.*modpack.*is.*broken",
+            "modpack.*not.*working",
+            "my.*modpack.*is.*not.*working",
+            "modpack.*won't.*work",
+            "modpack.*not.*loading",
+            "can't.*get.*modpack.*to.*work",
+            "modpack.*failed.*to.*install",
+            "modpack.*won't.*install",
+            "can't.*install.*modpack",
+            "corrupt.*modpack",
+            "modpack.*corrupt"
+        ],
+        "responses": [
+            "Did you try this? [https://lifxmod.com/troubleshooting/using-yo-launcher-my-modpack-did-not-install-correctly.html]",
+            "Please create a ticket for the GM regarding the modpack.",
+            "Did you try restarting your game? Sometimes that helps! 🔄",
+            "If you've joined another server using basil mod, you may need to reinstall via yo launcher.",
+            "Check out this guide: [https://lifxmod.com/troubleshooting/mod-pack-will-not-download-and-install-using-yo-launcher.html] for help."
+        ]
+    },
+    {
+        "intent": "where do i get mods",
+        "regex": [
+            "where.*do.*i.*get.*mods",
+            "where.*to.*get.*mods",
+            "how.*to.*get.*mods",
+            "where.*can.*i.*get.*mods",
+            "how.*do.*i.*install.*mods",
+            "where.*can.*i.*download.*mods",
+            "when.*i.*connect.*i.*crash",
+            "server.*crashes.*when.*i.*login"
+        ],
+        "responses": [
+            "Download the yo launcher app [https://www.yolauncher.app/] then join the server using this; most mods will install automatically unless you need to install tradepost mod. These are located on the left labeled as client mods.",
+            "If you're crashing when connecting, try reinstalling the mods or clearing the mod cache. Check for any specific mod issues or contact an admin for assistance."
+        ]
+    },
+    {
+        "intent": "server down",
+        "regex": [
+            "server.*down",
+            "is.*the.*server.*down",
+            "server.*is.*not.*working",
+            "server.*unstable",
+            "server.*crashed",
+            "server.*crash",
+            "server.*lag",
+            "laggy.*server",
+            "it.*is.*laggy"
+        ],
+        "responses": [
+            "Please https://discord.com/channels/1248393653798572132/1300562419415908433 to contact an admin.",
+            "Soon it will be back up when GM/Admin wakes up.",
+            "The server might be experiencing some instability. Please be patient or notify an admin.",
+            "Looks like the server is lagging or has crashed. We're working on resolving the issue."
+        ]
+    },
+    {
+        "intent": "FOB definition",
+        "regex": [
+            "what\\s+is\\s+a\\s+fob",
+            "how\\s+do\\s+fobs\\s+work",
+            "definition\\s+of\\s+fob",
+            "how\\s+is\\s+a\\s+fob\\s+defined",
+            "how(?:'s|s|z)\\s+a\\s+fob\\s+defined",
+            "purpose\\s+of\\s+fob",
+            "point\\s+of\\s+fob"
+        ],
+        "responses": [
+            "A FOB (Forward Operating Base) is typically defined as a military base located in a combat zone.",
+            "FOB stands for Forward Operating Base, often set up for military operations.",
+            "FOBs are used for strategic military purposes in combat zones, acting as temporary bases of operations.",
+            "People will set up a tiny claim or personal claim right next to something they want to attack. They’ll put up simple defenses and stock weapons and Armor. JH rolls around and they use that as their base, this is known as a FOB (Forward operating base)"
+        ]
+    },
+    {
+        "intent": "i cant find the hole",
+        "regex": [
+            "i.*cant.*find.*the.*hole",
+            "help.*finding.*the.*hole",
+            "i.*need.*help.*with.*the.*hole"
+        ],
+        "responses": [
+            "She did seem disappointed.",
+            "Contact me for help, I got this!"
+        ]
+    }
+]

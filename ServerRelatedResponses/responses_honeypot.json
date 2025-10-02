@@ -1,0 +1,92 @@
+[
+  {
+    "intent": "Where is the Admin?",
+    "regex": [
+      "where.*admin",
+      "admin.*help"
+    ],
+    "responses": [
+      "If it is a life or death matter, please open a ticket.",
+      "If looking for support, check the guides and ask players in General first.",
+      "Admin only help with serious issues, seek help from other players.",
+      "Admin are currently busy, be patient."
+    ]
+  },
+  {
+    "intent": "Server gone down",
+    "regex": [
+      "server.*down",
+      "server.*connect",
+      "server.*join"
+    ],
+    "responses": [
+      "Server may need an update, this is done on restarts as per the rules.",
+      "Admin are looking into to it, if it's a mod needing update it will be done on restart.",
+      "Technical issues please stand by."
+    ]
+  },
+  {
+    "intent": "Server is bad",
+    "regex": [
+      "bad.*server",
+      "server.*is.*bad",
+      "server.*sucks"
+    ],
+    "responses": [
+      "There are 10000+ servers out there, go find one more suited to your needs.",
+      "Instead of complaining, trying being productive and finding something to make you happy.",
+      "That's an issue not an ishme",
+      "Go touch some grass."
+    ]
+  },
+   {
+    "intent": "Leaving the server",
+    "regex": [
+      "leave.*server",
+      "leaving.*the.*server"
+    ],
+    "responses": [
+      "This is not an airport, no need to announce your departure.",
+      "Okay, do you want a cookie?",
+      "Are you leaving the server, or is the server leaving you?",
+      "As you wish."
+    ]
+  },
+  {
+    "intent": "Best way to make money",
+    "regex": [
+      "make.*money",
+      "make.*money.*way"
+    ],
+    "responses": [
+      "I suggest going to the trader, checking prices, then make your own decision.",
+      "There are plenty of activities out there, find one that suits you.",
+      "Go looting, see what you see."
+    ]
+  },
+  {
+    "intent": "There is no loot",
+    "regex": [
+      "no.*loot"
+    ],
+    "responses": [
+      "Loot is there, you aren't looking right.",
+      "Skill issues.",
+      "You just missed a good crate...",
+      "Have you tried tabbing to see what you missed.",
+      "You might be following behind someone."
+    ]
+  },
+  {
+    "intent": "Where is Cup",
+    "regex": [
+      "cup.*is",
+      "is.*cup"
+    ],
+    "responses": [
+      "She is a busy person, be patient",
+      "Even she doesn't know where she is.",
+      "More than likely drinking coffee to deal with the idiots... I mean people."
+    ]
+  }
+]

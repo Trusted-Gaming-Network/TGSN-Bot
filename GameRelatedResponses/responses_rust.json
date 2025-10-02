@@ -1,0 +1,315 @@
+[
+  {
+    "intent": "where is the admin",
+    "regex": [
+      "where.*is.*the.*admin",
+      "how.*to.*contact.*admin",
+      "where.*can.*i.*find.*admin",
+      "admin.*contact.*info"
+    ],
+    "responses": [
+      "To contact an admin, please create a ticket.",
+      "Admins are available through ticket creation.",
+      "You can reach an admin by submitting a support ticket.",
+      "The admin should be at their desk, try opening a ticket!"
+    ]
+  },
+  {
+    "intent": "trump for president",
+    "regex": [
+      "trump.*for.*president",
+      "trump.*2024",
+      "vote.*for.*trump"
+    ],
+    "responses": [
+      "He survived 2 shootings.",
+      "That guy looks like an orange.",
+      "Ye.. fuck Biden."
+    ]
+  },
+  {
+    "intent": "what are the server rules",
+    "regex": [
+      "what.*are.*the.*server.*rules",
+      "server.*rules.*please",
+      "tell.*me.*the.*server.*rules"
+    ],
+    "responses": [
+      "You can find the server rules here: [Server Rules]{channel_id}. 📜",
+      "Please check the server rules at this link: [Server Rules]{channel_id}. Make sure to review them!",
+      "The server rules are available here: [Server Rules]{channel_id}. Be sure to follow them!"
+    ]
+  },
+  {
+    "intent": "what game are you talking about",
+    "regex": [
+      "what.*game.*are.*you.*talking.*about",
+      "which.*game.*is.*this",
+      "what.*game.*is.*this"
+    ],
+    "responses": [
+      "DayZ",
+      "Hopefully DayZ, have I made a mistake?"
+    ]
+  },
+  {
+    "intent": "its not small its compact",
+    "regex": [
+      "its.*not.*small.*its.*compact",
+      "its.*compact.*not.*small",
+      "not.*small.*but.*compact"
+    ],
+    "responses": [
+      "Everything is big when you look through a microscope.",
+      "It is ok, I'm sure you have a big tongue..."
+    ]
+  },
+  {
+    "intent": "when is wipe",
+    "regex": [
+      "when.*is.*wipe",
+      "wipe.*schedule",
+      "is.*there.*a.*wipe"
+    ],
+    "responses": [
+      "No wipe planned currently.",
+      "You've got time, no worries."
+    ]
+  },
+  {
+    "intent": "trader robbed me",
+    "regex": [
+      "trader.*robbed.*me",
+      "trader.*stole.*my.*items",
+      "trader.*took.*my.*stuff"
+    ],
+    "responses": [
+      "Are you sure you didn't accidentally sell it?",
+      "Are you sure it isn't in your inventory?"
+    ]
+  },
+  {
+    "intent": "trader scammed me",
+    "regex": [
+      "trader.*scammed.*me",
+      "trader.*cheated.*me",
+      "trader.*is.*a.*scammer"
+    ],
+    "responses": [
+      "It is entirely possible.",
+      "Not all ammo stacks to 1000."
+    ]
+  },
+  {
+    "intent": "trader stole my money",
+    "regex": [
+      "trader.*stole.*my.*money",
+      "trader.*took.*my.*money",
+      "my.*money.*is.*missing"
+    ],
+    "responses": [
+      "Did you check the floor first?",
+      "Have you confirmed with ATM it isn't lost in inventory?"
+    ]
+  },
+  {
+    "intent": "I need help from Admin",
+    "regex": [
+      "I.*need.*help.*from.*Admin",
+      "Admin.*help.*needed",
+      "I.*want.*to.*contact.*Admin"
+    ],
+    "responses": [
+      "Please create a ticket to get assistance from an Admin.",
+      "For help from an Admin, submit a support ticket."
+    ]
+  },
+  {
+    "intent": "cheater",
+    "regex": [
+      "cheater",
+      "there.*is.*a.*cheater",
+      "someone.*is.*cheating"
+    ],
+    "responses": [
+      "Explain how there was cheating.",
+      "Who are the offending parties?",
+      "For help from an Admin, submit a support ticket."
+    ]
+  },
+  {
+    "intent": "cheats",
+    "regex": [
+      "cheats",
+      "cheating",
+      "any.*cheats.*available"
+    ],
+    "responses": [
+      "Cheater, Cheater, Pumpkin Eater.",
+      "On a PvE? Lame."
+    ]
+  },
+  {
+    "intent": "cheat",
+    "regex": [
+      "cheat",
+      "to.*cheat",
+      "how.*to.*cheat"
+    ],
+    "responses": [
+      "Cheater, Cheater, Pumpkin Eater.",
+      "On a PvE? Lame."
+    ]
+  },
+  {
+    "intent": "i need a Admin",
+    "regex": [
+      "I.*need.*a.*Admin",
+      "Admin.*needed",
+      "I.*want.*to.*speak.*to.*Admin"
+    ],
+    "responses": [
+      "Please create a ticket to get assistance from an Admin.",
+      "Open a ticket to receive Admin help.",
+      "For help from an Admin, submit a support ticket."
+    ]
+  },
+  {
+    "intent": "how to play",
+    "regex": [
+      "how.*to.*play",
+      "tell.*me.*how.*to.*play",
+      "how.*do.*i.*play"
+    ],
+    "responses": [
+      "Read the story time guide.",
+      "Run and hide before you get eaten!",
+      "Put a weapon in your hand, don't die.",
+      "Might want to eat and drink."
+    ]
+  },
+  {
+    "intent": "how do i play",
+    "regex": [
+      "how.*do.*i.*play",
+      "what.*are.*the.*instructions.*to.*play",
+      "how.*can.*i.*play"
+    ],
+    "responses": [
+      "Read the story time guide.",
+      "Run and hide before you get eaten!",
+      "Put a weapon in your hand, don't die.",
+      "Might want to eat and drink."
+    ]
+  },
+  {
+    "intent": "tell me a joke",
+    "regex": [
+      "tell.*me.*a.*joke",
+      "give.*me.*a.*joke",
+      "make.*me.*laugh"
+    ],
+    "responses": [
+      "What do kids play when their mom is using the phone? Bored games! 😂",
+      "What do you call an ant who fights crime? A vigilANTe! 😂",
+      "What’s a cat’s favorite dessert? A bowl full of mice-cream. 😂",
+      "What kind of math do birds love? Owl-gebra! 😂",
+      "Why was the washing machine laughing? It was taking the piss out of the knickers! 😂",
+      "What’s brown and sticky? A stick.😂",
+      "What’s the smartest insect? A spelling bee! 🐝",
+      "How does the ocean say hi? It waves! 🌊",
+      "What has ears but cannot hear? A cornfield! 🌽",
+      "What’s a cat’s favorite dessert? A bowl full of mice-cream! 🍦",
+      "What did the policeman say to his hungry stomach? “Freeze. You’re under a vest!” 🚔",
+      "What did the lava say to his girlfriend? “I lava you!” ❤️"
+    ]
+  },
+  {
+    "intent": "i love ibun",
+    "regex": [
+      "i.*love.*ibun",
+      "ibun.*is.*great",
+      "ibun.*is.*awesome"
+    ],
+    "responses": [
+      "Stop bringing him up! ❤️",
+      "Ibun has a tiny dong!!! 😍"
+    ]
+  },
+  {
+    "intent": "i love budzilla",
+    "regex": [
+      "i.*love.*budzilla",
+      "budzilla.*is.*awesome",
+      "budzilla.*is.*the.*best"
+    ],
+    "responses": [
+      "I love him too! He's amazing! better than ibun ❤️",
+      "Oh, that's sweet! Budzilla is wonderful! 😍",
+      "Budzilla is indeed great; I share your sentiment!"
+    ]
+  },
+  {
+    "intent": "i love cup",
+    "regex": [
+      "i.*love.*cup",
+      "cup.*is.*amazing",
+      "cup.*is.*the.*best"
+    ],
+    "responses": [
+      "I love her too! She's amazing! better than ibun and bud ❤️",
+      "Oh, that's sweet! Cup is wonderful! 😍",
+      "Cup is indeed great; I share your sentiment!",
+      "Cup is perfect!"
+    ]
+  },
+  {
+    "intent": "help",
+    "regex": [
+      "help",
+      "need.*help",
+      "i.*need.*help"
+    ],
+    "responses": [
+      "How can I assist you?",
+      "What do you need help with?",
+      "I'm here to help, what do you need?"
+    ]
+  },
+  {
+    "intent": "my inventory is empty",
+    "regex": [
+      "my.*inventory.*is.*empty",
+      "my.*inventory.*is.*gone",
+      "i.*have.*no.*items"
+    ],
+    "responses": [
+      "Check under your bed, it may be hiding there!",
+      "Make sure you aren't playing with the wrong account!"
+    ]
+  },
+  {
+    "intent": "my items are missing",
+    "regex": [
+      "my.*items.*are.*missing",
+      "my.*items.*are.*gone",
+      "i.*can't.*find.*my.*items"
+    ],
+    "responses": [
+      "Did you drop them or trade them?",
+      "Make sure you check the floor!"
+    ]
+  },
+  {
+    "intent": "how to get items",
+    "regex": [
+      "how.*to.*get.*items",
+      "how.*do.*i.*get.*items",
+      "tell.*me.*how.*to.*get.*items"
+    ],
+    "responses": [
+      "Loot the map, explore!",
+      "Find items around the environment or trade with other players."
+    ]
+  }
+]
